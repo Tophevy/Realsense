@@ -11,7 +11,7 @@ def place_tool(get_tool_done, run):
     get_tool_done = True #MES command that tool has been retrieved
     
     while True:
-        if run = True#MES command to run the tool drop off
+        if run = True:#MES command to run the tool drop off
             #Start move into DVF1
             movej([start_mov], a=1.4, v=1.05, t=1, r=0)
             #pause 2 seconds
@@ -40,7 +40,7 @@ def place_tool(get_tool_done, run):
 
             movej([mov_end], a=1.4, v=1.05, t=1, r=0)
             time.sleep(2)
-        elif quit
+        elif quit:
 
 
 start_mov[[4.324922561645508, -1.1755617421916504, 2.5042856375323694, -2.9155966244139613, 1.5290300846099854, 3.156883716583252]]
