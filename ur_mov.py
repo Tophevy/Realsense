@@ -9,7 +9,7 @@
 
 def place_tool(get_tool_done, run):
     get_tool_done = True #MES command that tool has been retrieved
-    if get_tool_done = True:
+    
         while True:
             if run = True#MES command to run the tool drop off
             #Start move into DVF1
