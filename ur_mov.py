@@ -24,23 +24,23 @@ def place_tool(get_tool_done, run):
             time.sleep(2)
 
             movej([mov_pos3], a=1.4, v=1.05, t=1, r=0)
-                time.sleep(2)
+            time.sleep(2)
 
-                movej([mov_pos4], a=1.4, v=1.05, t=1, r=0)
-                time.sleep(2)
+            movej([mov_pos4], a=1.4, v=1.05, t=1, r=0)
+            time.sleep(2)
 
-                movej([mov_pos5], a=1.4, v=1.05, t=1, r=0)
-                time.sleep(2)
+            movej([mov_pos5], a=1.4, v=1.05, t=1, r=0)
+            time.sleep(2)
 
-                movej([mov_pos6], a=1.4, v=1.05, t=1, r=0)
-                time.sleep(2)
+            movej([mov_pos6], a=1.4, v=1.05, t=1, r=0)
+            time.sleep(2)
 
-                movej([mov_pos7], a=1.4, v=1.05, t=1, r=0)
-                time.sleep(2)
+            movej([mov_pos7], a=1.4, v=1.05, t=1, r=0)
+            time.sleep(2)
 
-                movej([mov_end], a=1.4, v=1.05, t=1, r=0)
-                time.sleep(2)
-            elif quit
+             movej([mov_end], a=1.4, v=1.05, t=1, r=0)
+             time.sleep(2)
+        elif quit
 
 
 start_mov[[4.324922561645508, -1.1755617421916504, 2.5042856375323694, -2.9155966244139613, 1.5290300846099854, 3.156883716583252]]
