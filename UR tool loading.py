@@ -7,44 +7,44 @@
 #            if 1 <= tool_loc[] <= 12:
 #                tool_loc[] = tool_pos
 
-def place_tool(get_tool_done, run):
-    get_tool_done = True #MES command that tool has been retrieved
+    def place_tool(get_tool_done, run):
+        get_tool_done = True #MES command that tool has been retrieved
     
-    while True:
-        if run is True:#MES command to run the tool drop off
+            while True:
+                    if run is True:#MES command to run the tool drop off
             #Start move into DVF1
-            movej([start_mov], a=1.4, v=1.05, t=1, r=0)
+                        movej([start_mov], a=1.4, v=1.05, t=1, r=0)
             #pause 2 seconds
-            time.sleep(2)
+                        time.sleep(2)
             
-            movej([mov_pos1], a=1.4, v=1.05, t=1, r=0)
-            time.sleep(2)
+                        movej([mov_pos1], a=1.4, v=1.05, t=1, r=0)
+                        time.sleep(2)
 
-            movej([mov_pos2], a=1.4, v=1.05, t=1, r=0)
-            time.sleep(2)
+                        movej([mov_pos2], a=1.4, v=1.05, t=1, r=0)
+                        time.sleep(2)
 
-            movej([mov_pos3], a=1.4, v=1.05, t=1, r=0)
-            time.sleep(2)
+                        movej([mov_pos3], a=1.4, v=1.05, t=1, r=0)
+                        time.sleep(2)
 
-            movej([mov_pos4], a=1.4, v=1.05, t=1, r=0)
-            time.sleep(2)
+                        movej([mov_pos4], a=1.4, v=1.05, t=1, r=0)
+                        time.sleep(2)
 
-            movej([mov_pos5], a=1.4, v=1.05, t=1, r=0)
-            time.sleep(2)
+                        movej([mov_pos5], a=1.4, v=1.05, t=1, r=0)
+                        time.sleep(2)
 
-            movej([mov_pos6], a=1.4, v=1.05, t=1, r=0)
-            time.sleep(2)
+                        movej([mov_pos6], a=1.4, v=1.05, t=1, r=0)
+                        time.sleep(2)
 
-            movej([mov_pos7], a=1.4, v=1.05, t=1, r=0)
-            time.sleep(2)
+                        movej([mov_pos7], a=1.4, v=1.05, t=1, r=0)
+                        time.sleep(2)
 
-            movej([mov_end], a=1.4, v=1.05, t=1, r=0)
-            time.sleep(2)
+                        movej([mov_end], a=1.4, v=1.05, t=1, r=0)
+                        time.sleep(2)
             
-            pass
+                        pass
 
 
-start_mov[[4.324922561645508, -1.1755617421916504, 2.5042856375323694, -2.9155966244139613, 1.5290300846099854, 3.156883716583252]]
+start_mov[4.324922561645508, -1.1755617421916504, 2.5042856375323694, -2.9155966244139613, 1.5290300846099854, 3.156883716583252]
 mov_pos1[3.3756637573242188, -1.1755493444255372, 2.488903824483053, -2.9174686870970667, 1.5399997234344482, 3.156787633895874]
 mov_pos2[2.225080966949463, -1.1755736631206055, 2.5450590292560022, -2.917229314843649, 1.572808027267456, 3.156787633895874]
 mov_pos3[1.4847846031188965, -1.1755736631206055, 2.545107666646139, -2.916617055932516, 1.542443037033081, 3.156799554824829]
